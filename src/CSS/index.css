@@ -38,3 +38,7 @@ img{
   font-weight: 700;
   letter-spacing: -0.1em;
 }
+
+nav > p{
+  font-family: Inter, sans-serif;
+}
