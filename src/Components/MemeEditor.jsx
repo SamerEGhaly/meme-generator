@@ -1,11 +1,11 @@
 function MemeEditor(){
     return(
         <section className="memeEditor">
-            <div className="meme--textInput">
-                <input type="text" name="topText"/>
-                <input type="text" name="bottomText" />
-            </div>
-            <button>Get a new meme image 🖼️</button>
+            <form action="">
+                <input type="text" name="topText" className="topText--input" placeholder="top text" />
+                <input type="text" name="bottomText" className="bottomText--input" placeholder="bottom text"/>
+                <button>Get a new meme image 🖼️</button>
+            </form>
         </section>
     )
 }
