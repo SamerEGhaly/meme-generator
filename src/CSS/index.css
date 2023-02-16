@@ -52,11 +52,16 @@ nav > p{
   grid-template-rows: 2rem 2rem;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+  font-family: Karla, sans-serif;
 }
 
 .memeEditor > form > button {
   font-size: 1rem;
   grid-column: 1 / -1;
+  background: linear-gradient(90deg, #672280, #A626D3);
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
 
 .memePreview{
