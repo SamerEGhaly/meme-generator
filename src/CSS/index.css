@@ -42,3 +42,7 @@ img{
 nav > p{
   font-family: Inter, sans-serif;
 }
+
+.memeEditor{
+  padding: 2rem 4rem;
+}
