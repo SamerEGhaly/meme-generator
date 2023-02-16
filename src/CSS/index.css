@@ -46,3 +46,15 @@ nav > p{
 .memeEditor{
   padding: 2rem 4rem;
 }
+
+.memeEditor > form{
+  display: grid;
+  grid-template-rows: 2rem 2rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.memeEditor > form > button {
+  font-size: 1rem;
+  grid-column: 1 / -1;
+}
