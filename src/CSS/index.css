@@ -12,3 +12,10 @@ body{
 img{
   display: block;
 }
+
+.navBar{
+  background: linear-gradient(90deg, #672280, #A626D3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
