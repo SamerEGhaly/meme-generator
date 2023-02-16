@@ -3,7 +3,7 @@ function NavBar(){
         <nav className="navBar">
             <div className="logo">
                 <img src="./src/assets/troll-face.png" alt="troll face" className="trollFace" />
-                <h3 className="title">Meme Generator</h3>
+                <h1 className="title">Meme Generator</h1>
             </div>
             <p>React Course - Project 3</p>
         </nav>
