@@ -75,5 +75,6 @@ nav > p{
 }
 
 .memeImg{
-  width: 100%;
+  width: 60%;
+  margin: 0 auto;
 }
