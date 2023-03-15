@@ -47,7 +47,7 @@ nav > p{
   padding: 2rem 4rem;
 }
 
-.memeEditor > form{
+.memeEditor{
   display: grid;
   grid-template-rows: 2rem 2rem;
   grid-template-columns: 1fr 1fr;
@@ -60,7 +60,7 @@ nav > p{
   font-family: Karla, sans-serif;
 }
 
-.memeEditor > form > button {
+.memeEditor button {
   font-size: 1rem;
   grid-column: 1 / -1;
   background: linear-gradient(90deg, #672280, #A626D3);
